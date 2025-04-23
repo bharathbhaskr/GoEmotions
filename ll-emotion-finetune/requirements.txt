@@ -1,0 +1,12 @@
+torch>=2.2
+transformers>=4.39
+datasets
+evaluate
+accelerate
+scikit-learn
+optuna
+wandb
+fastapi         # for the inference API
+uvicorn         # dev server for FastAPI
+rich            # pretty CLI logs
+numpy<2
