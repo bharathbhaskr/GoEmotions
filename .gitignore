@@ -172,3 +172,31 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+# Ignore datasets and model checkpoints
+data/
+checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+env/
+venv/
+.goemo/
+
+# Ignore output reports/slides
+*.pdf
+*.pptx
+
+# VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
