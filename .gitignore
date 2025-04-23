@@ -191,9 +191,6 @@ env/
 venv/
 .goemo/
 
-# Ignore output reports/slides
-*.pdf
-*.pptx
 
 # VS Code
 .vscode/
